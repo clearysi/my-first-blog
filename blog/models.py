@@ -11,7 +11,7 @@ class Post(models.Model):
     title = models.CharField(max_length=200)  # This is how you define text with a limited number of characters
     text = models.TextField()  # This is for long text without a limit.
     created_date = models.DateTimeField(blank=True, null=True)  # This is a date and time.
-
+    published_date=models.DateTimeField(blank=True, null=True)
     def publish(self):
         self.published_date = timezone.now()
         self.save()

@@ -1,0 +1,23 @@
+{% load staticfiles %}
+<html>
+    <head>
+    </head>
+    <body>
+        <div>
+            <h1><a href="/">Siobhan's Blog</a> </h1>
+        <div>
+      </body>
+
+</html>
+
+       <div>
+            <p> published: 14.10.2015, 12:14</p>
+            <h2><a href="">My first post</a></h2>
+            <p>This is an example text for my blog.</p>
+        </div>
+        <div>
+
+            <p>published: 14:10:2015, 12:14</p>
+            <h2><a href=""> My second post</a></h2>
+            <p>This is my second post for my blog.</p>
+        </div>
